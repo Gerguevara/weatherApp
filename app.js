@@ -19,7 +19,7 @@ else {
 }
 
 getIngo(encoderURL)
-.then(temp=>{console.log(`the temperture on ${argv.address} is ${temp.temp}C and the weather must be ${temp.clima}`.cyan)})
+.then(temp=>{console.log(`temperture in ${argv.address} : ${temp.temp}C and the weather: ${temp.clima}`.cyan)})
 .catch(err=>{console.log(err);})
 
 
